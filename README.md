@@ -1,8 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A react based digital portfolio that I built as an upgrade from my previous web development project's digital portfolio.
+I used React, Vite, TailwindCSS for the building and styling, and FramerMotion for the animation.
+It consist of one simple page, with animation and styling, comprised of different sections made up by different react components.
+anyway hehe skibidi 
