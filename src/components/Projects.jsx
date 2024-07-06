@@ -22,7 +22,7 @@ const Projects = () => {
                 alt={project.title}
                 width={250}
                 height={250}
-                className="mb-6 rounded"
+                className="mb-6 rounded pointer-events-none select-none"
               /> 
             </motion.div>
             <motion.div 
