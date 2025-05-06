@@ -1,9 +1,8 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { SiTailwindcss } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { AiOutlineDotNet } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 const iconvariants = (duration) => ({
@@ -44,8 +43,24 @@ const Technologies = () => {
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
+         <motion.div
+          variants={iconvariants(1)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-200 p-4"
+        >
+          <SiTailwindcss className="text-7xl text-blue-400" />
+        </motion.div>
+                 <motion.div
+          variants={iconvariants(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-200 p-4"
+        >
+          <AiOutlineDotNet className="text-7xl text-black-400" />
+        </motion.div>
         <motion.div
-          variants={iconvariants(3)}
+          variants={iconvariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-200 p-4"
@@ -63,6 +78,8 @@ const Technologies = () => {
           <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
       </motion.div>
+
+      
     </div>
   );
 };

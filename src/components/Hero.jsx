@@ -19,9 +19,9 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-16 text-6xl font-extralight tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Zhi Yang
+              Asher Wee
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -44,11 +44,11 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex">
             <motion.img 
-            height={650} width={650}
+            height={550} width={550}
             initial={{x:100, opacity:0}}
             animate={{ x:0, opacity:1}}
             transition={{duration:1, delay: 1.2}}
-            className="pointer-events-none select-none" src={profilePic} alt="ZhiYang" />
+            className="pointer-events-none select-none object-cover aspect-square overflow-hidden rounded-xl" src={profilePic} alt="ZhiYang" />
           </div>
         </div>
       </div>

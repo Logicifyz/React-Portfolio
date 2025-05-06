@@ -1,4 +1,4 @@
-import React from "react";
+
 import logo from "../assets/CaligraphyLogo2.png";
 import { FaLinkedin, FaGithub,FaInstagram } from "react-icons/fa"; // Corrected import path
 
