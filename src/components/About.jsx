@@ -1,5 +1,5 @@
 import aboutImg from "../assets/AboutPic2.jpg";
-import { ABOUT_TEXT, ABOUT_TEXT2} from "../constants";
+import { ABOUT_TEXT} from "../constants";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
     transition={{ duration: 0.5 }}
     className="flex items-center justify-center"
   >
-    <div className="w-[700px] h-[700px] overflow-hidden rounded-xl">
+    <div className="w-[550px] h-[550px] overflow-hidden rounded-xl">
       <img 
         className="w-full h-full object-cover pointer-events-none select-none"
         src={aboutImg}
@@ -33,7 +33,6 @@ const About = () => {
         className="w-full lg:w-1/2">
           <div className="flex justify-center lg:justify-start my-20 flex-col">
             <p className="maxw-xl py-6">{ABOUT_TEXT}</p>{" "}
-            <p className="maxw-xl py-6">{ABOUT_TEXT2}</p>{" "}
           </div>
     
         </motion.div>
