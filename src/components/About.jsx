@@ -16,7 +16,7 @@ const About = () => {
     transition={{ duration: 0.5 }}
     className="flex items-center justify-center"
   >
-    <div className="w-[550px] h-[550px] overflow-hidden rounded-xl">
+    <div className="w-[550px] h-[600px] overflow-hidden rounded-xl">
       <img 
         className="w-full h-full object-cover pointer-events-none select-none"
         src={aboutImg}
